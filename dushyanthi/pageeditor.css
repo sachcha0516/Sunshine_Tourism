@@ -1,0 +1,21 @@
+.div1{
+    margin-left: 1.5cm;
+    margin-top: 1.5cm;
+}
+.topic{
+    font-size: 1cm;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 1cm;
+    color: rgb(214, 28, 152);
+}
+.p{
+    font-size: 1cm;
+    color: rgb(214, 28, 152);
+    padding-left: 3cm;
+    margin-top: 0;
+}
+
+

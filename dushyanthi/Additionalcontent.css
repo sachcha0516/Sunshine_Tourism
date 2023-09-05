@@ -1,0 +1,108 @@
+h1{
+  text-align:center;
+  font-size: 40px;
+}
+p{
+  font-size:18px;
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+}
+.topic{
+  background-image: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:5cm;
+  width:auto;
+}
+.topic2{
+    background-color: rgb(243, 255, 80);
+    max-width: 10cm;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0ch;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+.dropdown{
+    position:relative;
+    width: 50%;
+    padding-left: 1cm;
+}
+.image{
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #7a058a;
+}
+.dropdown:hover .overlay {
+    opacity: 1;
+}
+  
+.description {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.mountainLists{
+    background-color: rgb(0, 255, 242);
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+    padding-top: 0.5cm;
+}
+ul,li{
+    list-style-type:square;
+}
+.a:link{
+	font-weight: bold;
+	color:rgb(0, 0, 0);
+}
+.a:visited{
+	color:black;
+}
+.a:hover{
+	color:blue;
+}
+.a:active{
+	color:red;
+}
+/*-------ADDING CSS TO PAGE EDITOR BUTTON-------*/
+
+#to-PageEditor{  
+	position: fixed;                      
+	display: block;
+	background-color: rgb(255, 0, 0);
+	bottom: 2cm;
+	padding-bottom: 0.5cm;
+	padding-top: 0.5cm;
+	padding-left: 1cm;
+	padding-right: 1cm;
+	margin-left: 35cm;
+	margin-top: 1cm;
+}
+.a{
+	text-decoration: none;
+	font-size:15px ;
+}
+.a:hover{
+	color: rgb(217, 220, 20);
+}
+

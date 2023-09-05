@@ -1,0 +1,124 @@
+.MyProducts{
+	padding-left: 1cm;
+	padding-top: 1cm;
+	width:auto;
+	height:120vh;
+	border-style:solid;
+	border-color:Gray;
+	background-color: #B8860B;
+}
+.Buyproducts{
+	margin-top: 1px;
+	padding-left: 1cm;
+	width: auto;
+	height: 40vh;
+	border-style:groove;
+	border-color:rgb(245, 4, 4);
+	background-image: url("buypro.jpg");
+}
+.BuyProducts2{
+	border-style: groove;
+	border-color: black;
+	background-color: rgb(233, 85, 16);
+	width:8cm;
+	height: 5.4cm;
+	padding-left:1cm;
+	padding-bottom: 2cm;
+}
+.details{
+	padding-left: 1cm;
+	padding-top: 1cm;
+	width:30vw;
+	height:35vh;
+	border-color:rgb(14, 11, 11);
+	border-style:solid;
+	background-color:LightGrey;
+}
+.toppic{
+	width:10vw;
+	height:5vh;
+	background-color:black;
+	text-align:center;
+	
+}
+.form{
+	padding-top: 1cm;
+	padding-left: 2cm;
+	text-align:left;
+	width:auto;
+	height:60vh;
+	background-color:#C0C0C0;
+}
+  
+/*------ ADD TO CART BUTTON-----------*/
+.cart{
+	display:inline-block;
+	padding:12px;
+	background-color:yellow;
+	text-align:center;
+	cursor:pointer;
+	border:none;
+	width:18%;
+	border-radius:12px;
+}
+
+/*-------END OF ADD TO CART BUTTON--------*/
+
+/*-------PLACE ORDER BUTTON---------*/
+.totalButton {
+	color: rgb(206, 25, 40);
+	font-size: 1cm;
+	display:inline-block;
+	padding:20px;
+	background-color:rgb(217, 255, 127);
+	text-align:center;
+	cursor:pointer;
+	border:none;
+	width:20%;
+	border-radius:12px;
+}
+.totalButton:hover{background-color:gold;
+}
+.totalButton:active{background-color:#B8860B;
+}
+/*-----END OF PLACE ORDER BUTTON----*/
+
+h2{
+	color: white;
+}
+p{
+	font-size:20px;
+	color: white;
+}
+
+ul,li{
+	list-style-type:square;
+}
+.a{
+	text-decoration:none;
+}
+
+.a:link{
+	font-weight: bold;
+	color:rgb(0, 0, 0);
+}
+.a:visited{
+	color:black;
+}
+.a:hover{
+	color:blue;
+}
+.a:active{
+	color:red;
+}
+
+#invoice{
+	padding-left: 2cm;
+	padding-top: 1cm;
+	background-color: aquamarine;
+	min-height: 5cm;
+}
+.invoice{
+	font-weight: bold;
+	color: #ca1019;
+}

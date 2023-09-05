@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Buy Products</title>
+	<link rel="stylesheet" href="mystylesProducts.css">
+	<script src="javascriptProducts.js"></script>
+	<link rel="stylesheet" href="../Sachintha/external.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!--HEADER-->
+	<div id="mainnav">
+        <nav>
+            <ul>
+				<li><a href="../homepage/homepage.html"><b>Home</b></a></li>
+				<li><a href="../dushyanthi/BuyProducts.html"><b>Buy Products</b></a></li>
+				<li><a href="../sadeepa/thubnailnw.html"><b>Thumbnail Images</b></a></li>
+				<li><a href="../Vihan/beach.html"><b>Beaches</b></a></li>
+				<li><a href="../Vihan/quiz.html"><b>Quiz</b></a></li>
+				<li><a href="../dushyanthi/Additionalcontent.html"><b>Mountains</b></a></li>
+				<li><a href="../Sachintha/index.html"><b>Query Form</b></a></li>
+				<li><a href="../Vihan/studentdetails.html"><b>Student Details</b></a></li>
+				<li><a href="../sadeepa/sitemap.html"><b>Sitemap</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--END OF THE HEADER-->
+   	<div  class="Buyproducts" id="products"> 
+		   <div class="BuyProducts2" id="products2">
+	           <h1><b>Buy Products</b></h1>                     <!--CREATING LINKS TO EACH PRODUCT-->
+	           <ul>
+	               <li><a class="a" href="#product1">T-Shirts</a></li> 
+		           <li><a class="a" href="#product2">Face Masks</a></li>
+		           <li><a class="a" href="#product3">Mugs</a></li>
+		           <li><a class="a" href="#product4">Caps</a></li>
+		           <li><a class="a" href="#product5">Pins</a></li>
+		           <li><a class="a" href="#product6">Back Packs</a></li>
+		           <li><a class="a" href="#product7">Water Bottles</a></li>
+		           <li><a class="a" href="#product8">Key Tags</a></li>
+		           <li><a class="a" href="#personaldetails">Place Order</a></li>
+	           </ul>
+		   </div>
+	</div>
+	<div class="MyProducts" id="product1">               <!--BUY PRODUCT 1-->
+	    <div class="toppic" id="shirtToppic">
+	        <h2><b>T-Shirts</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price1"> Sri Lankan Traditional T-Shirts,1500 LKR (per one)</p>
+	    </div>
+	    <br>
+        <img src="BuyProductsimages/T-shirt1.png" alt="image of a T-shirt" width="220"> 
+	    <img src ="BuyProductsimages/T-shirt2.png" alt="image of a T-shirt" width="220">
+	    <img src="BuyProductsimages/T-shirt3.png" alt="image of a T-shirt" width="220">
+	    <img src="BuyProductsimages/T-shirt4.png" alt="image of a T-shirt" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct1"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct1">
+				<option value="one"> T-shirt type 1</option>
+				<option value="two">T-shirt type 2</option>
+				<option value="three">T-shirt type 3</option>
+				<option value="four">T-shirt type 4</option>
+			</select>
+			<br>
+		    <label for="quantity1"><b>Quantity:</b></label>
+	        <input type="number" id="quantity1" name="quantity" min="1">
+			<br>
+	        <b>Select the Size:</b>
+	        <label for="sizeSmall">Small:</label>
+	        <input type="radio" id="sizeSmall" name="sizeT">
+	        <label for="sizeMedium">Medium:</label>
+	        <input type="radio" id="sizeMedium" name="sizeT">
+	        <label for="sizeLarge">Large:</label>
+	        <input type="radio" id="sizeLarge" name="sizeT">
+	        <br>
+	        <b>Select the Colour:</b>
+	        <label for="colorBlack">Black:</label>
+	        <input type="radio" id="colorBlack" name="colorT">
+	        <label for="colorWhite">White:</label>
+	        <input type="radio" id="colorWhite" name="colorT">
+	        <label for="colorRed">Red:</label>
+	        <input type="radio" id="colorRed" name="colorT">
+			<label for="colorGrey">Grey:</label>
+			<input type="radio" id="colorGrey" name="colorT">
+			<br>
+			<b>Print Location:</b>
+			<label for="FrontL">Front:</label>
+			<input type="radio" id="FrontL" name="location">
+			<label for="BackL">Back:</label>
+			<input type="radio" id="BackL" name="location">
+			<br>
+			<input type="button" value="Add to cart" class="cart" id="button1" onclick="addtocart1()">
+			
+        </div>
+	</div>
+
+	<hr>
+	<div class="MyProducts" id="product2">                            <!--BUY PRODUCT 2-->
+	    <div class="toppic" id="masksToppic">
+	        <h2><b>Face Masks</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price2">Sri Lankan Traditional Masks,150 LKR (per one)</p>
+	    </div>
+	    <br>
+	    <img src="BuyProductsimages/mask1.png" alt="image of a face mask" width="220">
+	    <img src="BuyProductsimages/mask2.png" alt="image of a face mask" width="220">
+	    <img src="BuyProductsimages/mask3.png" alt="image of a face mask" width="220">
+	    <img src="BuyProductsimages/mask4.png" alt="image of a face mask" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct2"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct2">
+				<option value="one">Mask Type 1</option>
+				<option value="two">Mask Type 2</option>
+				<option value="three">Mask Type 3</option>
+				<option value="four">Mask Type 4</option>
+			</select>
+			<br>
+		    <label for="quantity2"><b>Quantity</b></label>
+			<input type="number" id="quantity2" name="quantity" min="1">
+			<br>
+			<label for="types"><b>Select the type</b></label>
+			<select name="types" id="types">
+			    <option value="Fitted 3-Layer">Fitted 3-Layer</option>
+				<option value="Flat 2-Layer">Flat 2-Layer</option>
+				<option value="Kids">Kids</option>
+			</select>
+			<br>
+			<label for="size"><b>Select the size</b></label>
+			<select name="size" id="size">
+			    <option value="Regular-Adult">Regular-Adult</option>
+				<option value="Small-12+ years">Small-12+ years</option>
+			</select>
+			<br>
+			<input type="button" value="Add to cart" class="cart" id="button2" onclick="addtocart2()">
+		</div>
+	</div>
+	<hr>
+	<div class="MyProducts" id="product3">                                  <!--BUY PRODUCT 3-->
+	    <div class="toppic" id="mugsToppic">
+	        <h2><b>Mugs</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price3">Sri Lankan Mug,1200 LKR (per one)</p>
+	    </div>
+	    <br>
+	    <img src="BuyProductsimages/mug1.png" alt="image of a mug" width="220">
+	    <img src="BuyProductsimages/mug2.png" alt="image of a mug" width="220">
+	    <img src="BuyProductsimages/mug3.png" alt="image of a mug" width="220">
+	    <img src="BuyProductsimages/mug4.png" alt="image of a mug" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct3"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct3">
+				<option value="one">Mug Type 1</option>
+				<option value="two">Mug Type 2</option>
+				<option value="three">Mug Type 3</option>
+				<option value="four">Mug Type 4</option>
+			</select>
+			<br>
+		    <label for="quantity3"><b>Quantity</b></label>
+			<input type="number" id="quantity3" name="quantity" min="1">
+		    <br>
+			<input type="button" value="Add to cart" class="cart" id="button3" onclick="addtocart3()">
+		</div>
+	</div>
+	<hr>
+	<div class="MyProducts" id="product4">                                 <!--BUY PRODUCT 4-->
+	    <div class="toppic" id="capsToppic">
+	        <h2><b>Caps</b></h2>
+	    </div>
+     	<div class="price">
+	         <p id="price4">Sri Lankan Caps,700 LKR (per one)</p>
+	    </div>
+	    <br>
+	    <img src="BuyProductsimages/cap1.png" alt="image of a cap" width="220">
+	    <img src="BuyProductsimages/cap2.png" alt="image of a cap" width="220">
+	    <img src="BuyProductsimages/cap3.png" alt="image of a cap" width="220">
+	    <img src="BuyProductsimages/cap4.png" alt="image of a cap" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct4"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct4">
+				<option value="one">cap Type 1</option>
+				<option value="two">cap Type 2</option>
+				<option value="three">cap Type 3</option>
+				<option value="four">cap Type 4</option>
+			</select>
+			<br>
+	        <label for="quantity4"><b>Quantity</b></label>
+			<input type="number" id="quantity4" name="quantity" min="1">
+			<br>
+			<b>Select the colour:</b>
+	        <label for="capBlack">Black:</label>
+	        <input type="radio" id="capBlack" name="colorC">
+	        <label for="capWhite">White:</label>
+	        <input type="radio" id="capWhite" name="colorC">
+	        <label for="capGrey">Grey:</label>
+	        <input type="radio" id="capGrey" name="colorC">
+	        <br>
+			<input type="button" value="Add to cart" class="cart" id="button4" onclick="addtocart4()">
+		</div>
+	</div>
+	<hr>
+	<div class="MyProducts" id="product5">                            <!--BUY PRODUCT 5-->
+	    <div class="toppic" id="pinsToppic">
+	        <h2><b>Pins</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price5">Sri Lankan Pins,100 LKR (per one)</p>
+	    </div>
+	    <br>
+	    <img src="BuyProductsimages/pin1.png" alt="image of a pin" width="220">
+	    <img src="BuyProductsimages/pin2.png" alt="image of a pin" width="220">
+	    <img src="BuyProductsimages/pin3.png" alt="image of a pin" width="220">
+	    <img src="BuyProductsimages/pin4.png" alt="image of a pin" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct5"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct5">
+				<option value="one">pin Type 1</option>
+				<option value="two">pin Type 2</option>
+				<option value="three">pin Type 3</option>
+				<option value="four">pin Type 4</option>
+			</select>
+			<br>
+		    <label for="quantity5"><b>Quantity</b></label>
+			<input type="number" id="quantity5" name="quantity" min="1">
+			<br>
+			<b>Select the Size:</b>
+			<label for="pinSmall">Small:</label>
+			<input type="radio" id="pinSmall" name="sizeP">
+			<label for="pinLarge">Large:</label>
+			<input type="radio" id="pinLarge" name="sizeP">	
+            <br>			 
+			<input type="button" value="Add to cart" class="cart" id="button5" onclick="addtocart5()">
+		</div>
+	</div>
+	<hr>
+	<div class="MyProducts" id="product6">                                          <!--BUY PRODUCT 6-->
+	    <div class="toppic" id="backpacksToppic">
+	        <h2><b>Back Packs</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price6">Sri Lankan Traditional Backpacks,2500 LKR (per one)</p>
+	    </div>
+	    <br>
+	    <img src="BuyProductsimages/bag1.png" alt="image of a bag" width="220">
+	    <img src="BuyProductsimages/bag2.png" alt="image of a bag" width="220">
+	    <img src="BuyProductsimages/bag3.png" alt="image of a bag" width="220">
+	    <img src="BuyProductsimages/bag4.png" alt="image of a bag" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct6"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct6">
+				<option value="one">bag Type 1</option>
+				<option value="two">bag Type 2</option>
+				<option value="three">bag Type 3</option>
+				<option value="four">bag Type 4</option>
+			</select>
+			<br>
+		    <label for="quantity6"><b>Quantity</b></label>
+			<input type="number" id="quantity6" name="quantity" min="1">
+	        <br>
+			<input type="button" value="Add to cart" class="cart" id="button6" onclick="addtocart6()">
+		</div>
+	</div>
+	<hr>
+	<div class="MyProducts" id="product7">                                         <!--BUY PRODUCT 7-->
+	    <div class="toppic" id="bottlesToppic">
+	        <h2><b>Water Bottles</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price7">Sri Lankan Water Bottles, 800 LKR (per one)</p>
+	    </div>
+     	<br>
+	    <img src="BuyProductsimages/bottle1.png" alt="image of a bottle" width="220">
+	    <img src="BuyProductsimages/bottle2.png" alt="image of a bottle" width="220">
+	    <img src="BuyProductsimages/bottle3.png" alt="image of a bottle" width="220">
+	    <img src="BuyProductsimages/bottle4.png" alt="image of a bottle" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct7"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct7">
+				<option value="one">bottle Type 1</option>
+				<option value="two">bottle Type 2</option>
+				<option value="three">bottle Type 3</option>
+				<option value="four">bottle Type 4</option>
+			</select>
+			<br>
+		    <label for="quantity7"><b>Quantity</b></label>
+			<input type="number" id="quantity7" name="quantity" min="1">
+            <br>
+			<input type="button" value="Add to cart" class="cart" id="button7" onclick="addtocart7()">
+		</div>
+	</div>
+	<hr>
+	<div class="MyProducts" id="product8">                                    <!--BUY PRODUCT 8-->
+	    <div class="toppic" id="keytagsToppic">
+	        <h2><b>Key Tags</b></h2>
+	    </div>
+	    <div class="price">
+	        <p id="price8">Traditional Sri Lankan Key tags,50 LKR (per one)</p>
+	    </div>
+	    <br>
+	    <img src="BuyProductsimages/keytag1.png" alt="image of a keytag" width="220">
+	    <img src="BuyProductsimages/keytag2.png" alt="image of a keytag" width="220">
+	    <img src="BuyProductsimages/keytag3.png" alt="image of a keytag" width="220">
+	    <img src="BuyProductsimages/keytag4.png" alt="image of a keytag" width="220">
+	    <br>
+	    <div class="details">
+			<label for="StyleProdct8"><b>Which Style do u want:</b></label>
+			<select name="style" id="StyleProduct8">
+				<option value="one">key tag Type 1</option>
+				<option value="two">key tag Type 2</option>
+				<option value="three">key tag Type 3</option>
+				<option value="four">key tag Type 4</option>
+			</select>
+			<br>
+		    <label for="quantity8"><b>Quantity</b></label>
+			<input type="number" id="quantity8" name="quantity" min="1">
+		    <br>
+			<input type="button" value="Add to cart" class="cart" id="button8" onclick="addtocart8()">
+		</div>
+	</div>
+	<hr>
+	<div class="form" id="personaldetails">                       <!--PERSONAL DETAILS FORM-->
+	    <h1>Personal Details</h1>
+		<br>
+	    <form name="form1">
+	        <label for="fname">First Name:</label>
+	        <input type="text" name="fname" id="fname" placeholder="eg: First name">
+	        <label for="Lname">Last Name:</label>
+	        <input type="text" name="Lname" id="Lname" placeholder="eg: Last name">
+	        <br>
+	        <label for="country">Country/Region:</label>
+	        <input type="text" name="country" id="country" placeholder="eg: United Status">
+	        <br>
+	        <label for="StreetA">Street Adress:</label>
+	        <input type="text" name="adress" id="StreetA" size="50" placeholder="eg: 2978 west main street, Florida">
+	        <br>
+	        <label for="city">City:</label>
+	        <input type="text" name="city" id="city" placeholder="eg: New York">
+	        <br>
+	        <label for="postal">Zip/Postal Code:</label>
+	        <input type="text" name="postal" id="postal" placeholder="eg: 00100" >
+	        <label for="zip">My adress does not have a zip code</label>
+	        <input type="checkbox" name="zip" id="zip">
+            <br>
+	        <label for="tel">Mobile:</label>
+	        <input type="tel" id="tel" name="tel" placeholder="eg: country code+ number">
+	        <label for="email">Email Adress:</label>
+	        <input type="email" name="email" id="email" placeholder="eg:  abc@gmail.com"> 
+	        <br>
+			<input type="button" class="totalButton" value="Place Order" onclick="Totalbill()">
+	    </form>
+	    </div>
+    	<div id="invoice"> 
+		    <h1 class="invoice">INVOICE</h1>
+	    </div>
+	  
+	    <!--ADDING TOP BUTTON-->
+	    <button onclick="topFunction()" id="TopBtn" title="Go to top">Top</button>
+        <!--FOOTER-->
+        <div class="footer-main-div">
+            <div class="footer-social-icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="blank"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/login?lang=en" target="blank"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/uas/login" target="blank"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/" target="blank"> <i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-menu-one">
+                <ul>
+					<li><a href="../homepage/homepage.html"><b>Home</b></a></li>
+					<li><a href="../dushyanthi/BuyProducts.html"><b>Buy Products</b></a></li>
+					<li><a href="../sadeepa/thubnailnw.html"><b>Thumbnail Images</b></a></li>
+					<li><a href="../Vihan/beach.html"><b>Beaches</b></a></li>
+					<li><a href="../Vihan/quiz.html"><b>Quiz</b></a></li>
+					<li><a href="../dushyanthi/Additionalcontent.html"><b>Mountains</b></a></li>
+					<li><a href="../Sachintha/index.html"><b>Query Form</b></a></li>
+					<li><a href="../Vihan/studentdetails.html"><b>Student Details</b></a></li>
+					<li><a href="../sadeepa/sitemap.html"><b>Sitemap</b></a></li>
+                </ul>
+                <br><br>
+				<p class="center">Page Editor: <a href="../dushyanthi/page-editor.html" style="color: rgb(252, 250, 250);">Dushyanthi Mahavithana</a></p>
+				<p class="center">Contact information: <a href="mailto:dushyanthi.20210093@iit.ac.lk" style="color: rgb(252, 250, 250);">dushyanthi.20210093@iit.ac.lk</a></p>
+            </div>
+        </div> 
+        <div class="footer-bottom">
+			<p class="center">Copyright @ 2022 Sunshine Tourism, Inc. All rights reserved</p>
+        </div>   
+        <script>
+        /*The below code is to scroll up the window when the user reaches the bottom of the page
+        When the user scrolls down 20px from the top of the document, show the button*/
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                document.getElementById("TopBtn").style.display = "block";
+            }else{
+                document.getElementById("TopBtn").style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+	    <!--END OF THE FOOTER-->
+</body>
+</html>

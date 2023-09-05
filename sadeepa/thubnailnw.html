@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../Sachintha/external.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--header-->
+    <div id="mainnav">
+        <nav>
+           <ul>
+            <li><a href="../homepage/homepage.html"><b>Home</b></a></li>
+            <li><a href="../dushyanthi/BuyProducts.html"><b>Buy Products</b></a></li>
+            <li><a href="../sadeepa/thubnailnw.html"><b>Thumbnail Images</b></a></li>
+            <li><a href="../Vihan/beach.html"><b>Beaches</b></a></li>
+            <li><a href="../Vihan/quiz.html"><b>Quiz</b></a></li>
+            <li><a href="../dushyanthi/Additionalcontent.html"><b>Mountains</b></a></li>
+            <li><a href="../Sachintha/index.html"><b>Query Form</b></a></li>
+            <li><a href="../Vihan/studentdetails.html"><b>Student Details</b></a></li>
+            <li><a href="../sadeepa/sitemap.html"><b>Sitemap</b></a></li>
+           </ul>
+        </nav>
+    </div>
+    <!--header-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style></style>
+
+	<title> Discover Sri Lanka </title>
+</head>
+<body>
+<img src="photos/pic.jpg" alt="cover" width=100% height=5%>
+
+<form>
+    <!--options to change font colour-->
+       <select name="backGroundColour" class="choose" size="1" onChange="updateTextColour(this.value)">
+           <option value="" disabled selected>Pick the text colour
+           <option value="#fff">Original</option>
+           <option value="000000">Black</option>
+
+           <option value="FFFFFF">White</option>
+           <option value="EFE800">Yellow</option>
+           <option value="05EF00">Green</option>
+           <option value="0206FF">Blue</option>
+           <option value="FF0400">Red</option>
+           
+       </select>
+
+       <select id=background class="choose" onChange='myFunction()'>
+           <option value="" disabled selected>pick the page colour
+           <option value="transparent">Original</option>
+           <option value="White"> White</option>
+           <option value="Black"> Black</option>
+           <option value="Red">Red</option>
+           <option value="Yellow"> Yellow</option>
+           <option value="Blue"> Blue</option>
+           <option value="Green"> Green</option>
+           
+       </select>   
+</form>
+
+<div class="container">
+	<h1> Discover Sri Lanka </h1>
+		<center>
+		<p style="font-size:20px";>Click on an image to view Additional Information</p>
+		</center>
+		
+		<div class="picture">
+			<a href="wild.html"><img src="photos/wild.jpg" alt="wild" style="width:234px;height:200px;"></a>
+				<div class="description">
+					<p>WILD</p>
+				</div>
+			</div>
+		<div class="picture">
+			<a href="festival.html"><img src="photos/fest.jpeg" alt="fest" style="width:234px;height:200px;"></a>
+			<div class="description">
+				<p>FESTIVE</p>
+			</div>
+		</div>
+		<div class="picture">	
+			<a href="heritage.html"><img src="photos/heritage.jpg" alt="heritage" style="width:234px;height:200px;"></a>
+			<div class="description">
+				<p>HERITAGE</p>
+			</div>
+		</div>
+		<div class="picture">	
+			<a href="pristine.html"><img src="photos/pristine.jpeg" alt="pristine" style="width:234px;height:200px;"></a>
+			<div class="description">
+				<p>PRISTINE</p>
+		</div>
+	</div>
+	<div class="picture">
+	<a href="thrills.html"><img src="photos/thrills.jpeg" alt="thrills" style="width: 234px;height:200px;"></a>
+
+	<div class="description">
+		<p>THRILLS</p>
+		
+	</div>
+</div>
+</div>
+
+<br> <br>
+<script>
+	function updateTextColour(value) {
+document.body.style.color = '#' + value;
+document.getElementById("cg").style.color='#' + value;
+}
+function myFunction() {
+    var sel1 = document.getElementById('background').value;
+    document.body.style.backgroundColor = sel1;
+}
+</script>
+
+   <!--footer-->
+    <button onclick="topFunction()" id="TopBtn" title="Go to top">Top</button>
+
+    <div class="footer-main-div">
+        <div class="footer-social-icons">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="blank"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/login?lang=en" target="blank"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/uas/login" target="blank"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="blank"> <i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-menu-one">
+            <ul>
+                <li><a href="../homepage/homepage.html"><b>Home</b></a></li>
+                <li><a href="../dushyanthi/BuyProducts.html"><b>Buy Products</b></a></li>
+                <li><a href="../sadeepa/thubnailnw.html"><b>Thumbnail Images</b></a></li>
+                <li><a href="../Vihan/beach.html"><b>Beaches</b></a></li>
+                <li><a href="../Vihan/quiz.html"><b>Quiz</b></a></li>
+                <li><a href="../dushyanthi/Additionalcontent.html"><b>Mountains</b></a></li>
+                <li><a href="../Sachintha/index.html"><b>Query Form</b></a></li>
+                <li><a href="../Vihan/studentdetails.html"><b>Student Details</b></a></li>
+                <li><a href="../sadeepa/sitemap.html"><b>Sitemap</b></a></li>
+            </ul>
+            <br><br>
+            <p><center style="color:white;">Page Editor: <a href="#" style="color:white;">Sadeepa Ranasinghe</a></center>
+            <center style="color:white;">Contact information:
+            <a href="mailto:" style="color:white;">sadeepa.20210868@iit.ac.lk</a></center></p>
+        </div>
+    </div> 
+    <div class="footer-bottom">
+        <center style="color:white;">Copyright @ 2022 Sunshine Tourism, Inc. All rights reserved</center>
+    </div>   
+
+    <script>
+        /*----The below code is to scroll up the window when the user reaches the bottom of the page
+        When the user scrolls down 20px from the top of the document, show the button*/
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                document.getElementById("TopBtn").style.display = "block";
+            }else{
+                document.getElementById("TopBtn").style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!--footer-->
+	</body>
+</html>

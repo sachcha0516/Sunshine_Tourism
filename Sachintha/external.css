@@ -1,0 +1,151 @@
+/*navigation bar*/
+*{
+margin: 0;
+padding: 0;
+}
+
+#mainnav{
+	width: 100%;
+	height: 2cm;
+	background-size: cover;	
+} 
+nav{
+	width: 100%;
+	height: 2cm;
+	background-color: rgb(63, 57, 57);
+	line-height: 80px;
+	position: fixed;
+	z-index: 300;
+	opacity: 0.9;
+}
+
+nav ul{
+	float:left;
+	margin-right: 30px;
+}
+
+nav ul li{
+	list-style-type:none;
+	display: inline-block;
+	font-size: 0.6cm;
+}
+
+nav ul li:hover{
+	background-color: #4ab6a4;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: rgb(187, 63, 100);
+	padding: 20px;
+}
+
+/*footer*/
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+.footer-main-div{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: rgb(63, 57, 57);
+	padding: 20px 0px;
+}
+
+.footer-social-icons{
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-social-icons ul li{
+	display: inline-block;
+	width: 45px;
+	height: 51px;
+	margin: opx 10px;
+	border-radius: 100%;
+	background: #4ab6a4;
+}
+
+.footer-social-icons ul li a{
+	color: white;
+	font-size: 25px;
+	display:block;
+}
+
+.footer-social-icons ul li a i{
+	line-height: 50px;
+}
+
+.footer-menu-one{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menu-one ul li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.footer-menu-one ul li a{
+	font-family: arial;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+}
+
+.footer-bottom{
+	height: auto;
+	margin: auto;
+	background: rgb(187, 63, 100);	;
+    padding: 20px;	
+}
+
+.footer-bottom{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+}
+.center{
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+/*footer ends here*/
+
+/*top button*/
+#TopBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#TopBtn:hover {
+  background-color: #555;
+}

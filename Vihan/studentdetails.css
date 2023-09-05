@@ -1,0 +1,42 @@
+.h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.7cm;
+    text-align: center;
+    color: rgb(187, 36, 62);
+}
+.p{
+    text-align: center;
+    font-style: italic;
+}
+.below{
+    position: relative;
+    display: inline-block;
+}
+.below-content{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    z-index: 1;
+    font-weight: bolder;
+    min-width: 275px;
+    height: 2.3cm;
+    border: 3px;
+    border-color: black;
+    border-style: double;
+    
+}
+.below:hover .below-content{
+    display: block;
+}
+.div1{
+    background-color: rgb(63, 206, 146);
+    border: 4px;
+    border-color: black;
+    border-style: double;
+    margin-top: 1px;
+}
+.div2{
+    padding-bottom: 2.5cm;
+    text-align: center;
+}

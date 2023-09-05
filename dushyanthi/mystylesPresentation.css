@@ -1,0 +1,60 @@
+body{
+	background-image:url("beautyofceylon.png");
+	background-size: cover;
+}
+h1{
+	color:rgb(255, 255, 255);
+	text-align:center;
+	font-size:49px;
+	font-weight: bold;
+	margin-bottom: 0cm;
+}
+.div1{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 14cm;
+	border-bottom: 4px;
+	border-top: 0ch;
+	border-left: 0ch;
+	border-right: 0ch;
+	border-style: double;
+	border-color: rgb(224, 48, 107);
+
+}
+
+h2{
+	color:white;
+	text-align:center;
+	font-weight: bold;
+	font-size:25px;
+	font-style:italic;
+
+}
+ul{
+	
+	color:white;
+	font-style:italic;
+	font-size:25px;
+	list-style-type:square;
+	list-style-type:none;
+}
+.div2{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 9cm;
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+	font-size:15px ;
+	color: white;
+}
+.center{
+	
+	text-align: center;
+	color: white;
+}
+.div3{
+	margin-top: 9cm;
+}

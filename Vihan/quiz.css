@@ -1,0 +1,60 @@
+.h1{
+    font-weight: bolder;
+    color: rgb(201, 60, 206);
+    font-size: 1.7cm;
+    text-align: center;
+}
+
+.h4{
+    color: rgb(189, 32, 97);
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+
+.p{
+    font-weight: bold;
+    font-size: large;
+}
+
+#questions{
+    max-width: 1000px;
+    background: rgba(85, 207, 187, 0.95);
+    margin: auto;
+    border: #000000;
+    border-width: 6px;
+    border-style: double;
+    margin-top: 1px;
+} 	
+
+form{
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    padding-bottom: 1cm;
+}
+    
+input{
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.button {
+    width: 280px;
+    color:white;
+    background-color:#df4350;
+    font-size:30px;
+    border-width:4px;
+    border-color:#000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: none;
+    text-align: center;
+}
+.hr{
+    border: 1px solid blue;
+}    
